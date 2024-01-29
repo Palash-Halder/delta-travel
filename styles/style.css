@@ -61,7 +61,7 @@
 
 /* banner section */
 .banner-container{
-    background-image: url(../images/Images/banner.png);
+    background-image: url(../images/banner.png);
     background-repeat: no-repeat;
     width: 100%;
     object-fit: fit;
@@ -124,6 +124,54 @@ select {
 .btn-primary{
     background-color: #FF5400;
     color: #FFF;
+}
+
+/* ========== Popular Section Starts ========== */
+
+.popular{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    max-width: 1220px;
+    margin: 0 auto;
+    margin-top: 100px !important;
+}
+
+.popular-content{
+    width: 50%;
+}
+
+
+.popular-img img{
+    object-fit: cover;
+    margin-right: 30px;
+}
+
+.popular-content h3{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1b1b1c;
+}
+
+.popular-content p, .popular-content ul{
+    color: #5A5A5D;
+    margin: 24px 0;
+    text-align: justify;
+    font-size: 1.10rem;
+}
+
+.popular-content ul{
+    padding-left: 30px;
+}
+
+.popular-content button{
+    background-color: #FF5400;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    font-weight: 700;
+    padding: 15px 20px;
 }
 
 
