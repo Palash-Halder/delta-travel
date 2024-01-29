@@ -1,0 +1,56 @@
+/* ========== Mobile Device Responsive ========== */
+@media screen and (max-width: 600px){
+    .container{
+        width: 90%;
+    }
+
+    .nav-container{
+        flex-direction: column;
+    }
+
+    .logo-title{
+        justify-content: center;
+    }
+
+    .menu-item{
+        margin-top: 10px;
+    }
+
+    .menu-item ul li a{
+       justify-content: space-between;
+       margin-right: 10px;
+    
+    }
+
+    .header-section{
+        margin-top: 20px;
+    }
+
+   .logo-title{
+    width: 100%;
+   }
+
+   .banner-container .banner-text h1{
+    font-size: 2.25rem;
+    padding: 10px;
+   }
+
+   .banner-container .banner-text p{
+    font-size: 1rem;
+    padding: 15px;
+   }
+
+   .banner-container form{
+        flex-direction: column;
+        padding: 10px 10px;
+        gap: 20px;
+        width: 70%;
+        margin: 20px 100px;
+        justify-content: center;
+        align-items: center;
+   }
+   .banner-container form, input, select, button{
+    flex-direction: column;
+   }
+
+}
