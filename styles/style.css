@@ -157,11 +157,15 @@ select {
     color: #5A5A5D;
     margin: 24px 0;
     text-align: justify;
-    font-size: 1.10rem;
+    font-size: 1rem;
 }
 
 .popular-content ul{
     padding-left: 30px;
+}
+
+.popular-content ul li{
+    line-height: 26px;
 }
 
 .popular-content button{
@@ -170,8 +174,88 @@ select {
     color: #FFFFFF;
     font-size: 1.2rem;
     border-radius: 8px;
-    font-weight: 700;
     padding: 15px 20px;
 }
 
 
+.destination{
+    max-width: 1220px;
+    margin: 0 auto;
+    margin-top: 175px !important;
+    justify-content: center;
+}
+
+.destination h2{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.destination p{
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 10px;
+    padding: 10px 220px;
+}
+
+.container-destination-collage .grid-img1{
+    grid-area: grid-img1;
+    background: url(../images/Rectangle\ 10.png);
+}
+
+.container-destination-collage .grid-img2{
+    grid-area: grid-img2;
+    background: url(../images/Rectangle\ 5.png);
+}
+.container-destination-collage .grid-img3{
+    grid-area: grid-img3;
+    background: url(../images/Rectangle\ 6.png);
+}
+.container-destination-collage .grid-img4{
+    grid-area: grid-img4;
+    background: url(../images/Rectangle\ 7.png);
+}
+.container-destination-collage .grid-img5{
+    grid-area: grid-img5;
+    background: url(../images/Rectangle\ 8.png);
+}
+.container-destination-collage .grid-img6{
+    grid-area: grid-img6;
+    background: url(../images/Rectangle\ 9.png);
+}
+.container-destination-collage .grid-img7{
+    grid-area: grid-img7;
+    background: url(../images/Rectangle\ 10.png);
+}
+
+.container-destination-collage .grid-img1,
+.container-destination-collage .grid-img2,
+.container-destination-collage .grid-img3,
+.container-destination-collage .grid-img4,
+.container-destination-collage .grid-img5,
+.container-destination-collage .grid-img6,
+.container-destination-collage .grid-img7{
+    min-height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.destination .container-destination-collage{
+    display: grid;
+    grid-template-areas: 
+    "grid-img1 grid-img1 grid-img1 grid-img2 grid-img2 grid-img2"
+    "grid-img3 grid-img3 grid-img4 grid-img4 grid-img5 grid-img5"
+    "grid-img6 grid-img6 grid-img6 grid-img7 grid-img7 grid-img7";
+    gap: 15px;
+}
+
+.container-destination-collage p{
+    color: #FFFFFF;
+    font-size: 1.75rem;
+    font-weight: 700;
+}
