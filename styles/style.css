@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800&display=swap');
 
-
 *{
     margin: 0;
     padding: 0;
@@ -72,7 +71,7 @@
 
 .banner-container h1{
     color: #FFF;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 800;
     padding: 100px 287px 10px 287px;
     text-align: center;
@@ -85,6 +84,7 @@
     font-weight: 500;
     padding: 10px 250px 50px 250px;
     text-align: center;
+
 }
 
 .banner-container form {
@@ -177,82 +177,90 @@ select {
     padding: 15px 20px;
 }
 
-
+/* ========== Destination Section Starts ========== */
 .destination{
-    max-width: 1220px;
     margin: 0 auto;
-    margin-top: 175px !important;
+    max-width: 1220px;
+    margin-top: 150px !important;
+}
+
+.destination-text h2{
+    text-align: center;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2.2rem;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.destination-text p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px; 
+    padding: 30px 250px;
     justify-content: center;
 }
 
-.destination h2{
-    font-size: 2.5rem;
-    text-align: center;
-}
-
-.destination p{
-    font-size: 1.1rem;
-    text-align: center;
-    margin: 10px;
-    padding: 10px 220px;
-}
-
-.container-destination-collage .grid-img1{
-    grid-area: grid-img1;
-    background: url(../images/Rectangle\ 10.png);
-}
-
-.container-destination-collage .grid-img2{
-    grid-area: grid-img2;
+.container-destination-collage .grid-item1{
+    grid-area: grid-item1;
     background: url(../images/Rectangle\ 5.png);
 }
-.container-destination-collage .grid-img3{
-    grid-area: grid-img3;
-    background: url(../images/Rectangle\ 6.png);
-}
-.container-destination-collage .grid-img4{
-    grid-area: grid-img4;
-    background: url(../images/Rectangle\ 7.png);
-}
-.container-destination-collage .grid-img5{
-    grid-area: grid-img5;
-    background: url(../images/Rectangle\ 8.png);
-}
-.container-destination-collage .grid-img6{
-    grid-area: grid-img6;
-    background: url(../images/Rectangle\ 9.png);
-}
-.container-destination-collage .grid-img7{
-    grid-area: grid-img7;
+.container-destination-collage .grid-item2{
+    grid-area: grid-item2;
     background: url(../images/Rectangle\ 10.png);
 }
+.container-destination-collage .grid-item3{
+    grid-area: grid-item3;
+    background: url(../images/Rectangle\ 7.png);
+}
+.container-destination-collage .grid-item4{
+    grid-area: grid-item4;
+    background: url(../images/Rectangle\ 8.png);
+}
+.container-destination-collage .grid-item5{
+    grid-area: grid-item5;
+    background: url(../images/Rectangle\ 10.png);
+}
+.container-destination-collage .grid-item6{
+    grid-area: grid-item6;
+    background: url(../images/Rectangle\ 10.png);
+}
+.container-destination-collage .grid-item7{
+    grid-area: grid-item7;
+    background: url(../images/Rectangle\ 88.png);
+}
 
-.container-destination-collage .grid-img1,
-.container-destination-collage .grid-img2,
-.container-destination-collage .grid-img3,
-.container-destination-collage .grid-img4,
-.container-destination-collage .grid-img5,
-.container-destination-collage .grid-img6,
-.container-destination-collage .grid-img7{
+.container-destination-collage .grid-item1,
+.container-destination-collage .grid-item2,
+.container-destination-collage .grid-item3,
+.container-destination-collage .grid-item4,
+.container-destination-collage .grid-item5,
+.container-destination-collage .grid-item6,
+.container-destination-collage .grid-item7{
     min-height: 250px;
     background-repeat: no-repeat;
-    background-size: cover;
+    object-fit: cover;
     background-position: center;
     border-radius: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    width: 100%;
 }
 
 .destination .container-destination-collage{
     display: grid;
     grid-template-areas: 
-    "grid-img1 grid-img1 grid-img1 grid-img2 grid-img2 grid-img2"
-    "grid-img3 grid-img3 grid-img4 grid-img4 grid-img5 grid-img5"
-    "grid-img6 grid-img6 grid-img6 grid-img7 grid-img7 grid-img7";
+    "grid-item1 grid-item1 grid-item1 grid-item2 grid-item2 grid-item2"
+    "grid-item3 grid-item3 grid-item4 grid-item4 grid-item4 grid-item5"
+    "grid-item6 grid-item6 grid-item6 grid-item7 grid-item7 grid-item7";
     gap: 15px;
 }
+
 
 .container-destination-collage p{
     color: #FFFFFF;

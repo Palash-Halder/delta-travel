@@ -80,4 +80,32 @@
     margin-bottom: 20px;
 }
 
+
+
+
+.destination{
+    margin-top: 10px;
 }
+.destination-text h2{
+    text-align: center;
+}
+.destination-text p{
+   text-align: center;
+   padding: 10px 50px;
+}
+
+.destination .container-destination-collage{
+    display: grid;
+    grid-template-areas:
+    "grid-item1"
+    "grid-item2"
+    "grid-item3"
+    "grid-item4"
+    "grid-item5"
+    "grid-item6"
+    "grid-item7";
+    gap: 10px;
+}
+
+}
+
