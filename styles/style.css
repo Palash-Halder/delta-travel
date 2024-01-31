@@ -271,12 +271,7 @@ select {
     margin: 0 auto;
     max-width: 1220px;
     margin-top: 120px !important;
-    background-color: aquamarine;
 }
-
-/* .choose-container .choose-content{
-    text-align: center;
-} */
 
 .choose-container .choose-content h2{
     text-align: center;
@@ -291,24 +286,31 @@ select {
     text-align: center;
     font-size: 1rem;
     font-weight: 400;
-    max-width: 620px;
-    padding: 30px 250px;
+    padding: 30px 50px;
 }
 
 .choose-container .service-box{
     display: grid;
-    grid-template-columns: repeat(2, 1fr 1fr);
-}
-
-.choose-container .service-box{
-    background-color: #FF5400;
-    height: 200px;
+    gap: 50px;
+    grid-template-columns: 550px 550px;
 }
 
 .choose-container .service-box .handpicked{
-    background-color: #c7f9f9;
-    height: 200px;
-    width: 100%;
+    border-radius: 10px;
+    padding: 10px 100px 10px 20px;
+}
+
+.grid-area-1{
+    background-color: hsl(180, 81%, 88%);
+}
+
+.grid-area-2{
+    background-color: #f6edf7;
+}
+
+.grid-area-3{
+    background-color: #f6ede8;
+    
 }
 
 .choose-container .service-box .handpicked img{
@@ -326,8 +328,10 @@ select {
 }
 
 .choose-container .service-box .handpicked p{
-    padding: 10px 50px 20px 0px;
+    padding: 10px 40px 20px 0px;
     color: #131318;
     text-align: left;
     font-size: 1rem;
+    max-width: 550px;
 }
+
