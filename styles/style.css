@@ -9,6 +9,10 @@
     border: none;
 }
 
+body{
+    font-family: 'Mulish', sans-serif;
+}
+
 .header-section{
     max-width: 1220px;
     margin: 0 auto;
@@ -317,8 +321,6 @@ select {
     padding: 20px 0px 10px 0px;
 }
 
-
-
 .choose-container .service-box .handpicked h3{
     padding-top: 10px;
     color: #131318;
@@ -367,15 +369,16 @@ select {
     background-repeat: no-repeat;
     height: 400px;
     position: relative;
+    margin-bottom: 50px;
 }
 
 .deals-banner-backstage{
     border-radius: 20px;
     margin: 20px 40px;
     width: 500px;
-    background-color: beige;
+    background-color: rgba(245, 245, 220, 0.8);
     position: absolute;
-    top: 0;
+    top: 30px;
     right: 100px;
 }
 
@@ -400,7 +403,13 @@ select {
     align-items: center;
 }
 
-
+.deals-banner-backstage h2{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-left: 80px;
+    margin-bottom: 10px;
+}
 
 .backstage p{
     font-size: 0.8rem;
@@ -408,31 +417,222 @@ select {
     font-family: Mulish;
 }
 
-.deals-banner-backstage h2{
+.backstage-title-details{
+    padding-left: 50px;
+}
+
+.backstage-title-details p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 400px;
+}
+
+.backstage-title-details h4{
+    color: #FF5400;
+}
+
+.backstage-title-details button{
+    background-color: #FF5400;
+    padding: 10px 15px;
+    border-radius: 7px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* ======================*/
+.deals-banner2{
+    background-image: url(../images/Group\ 40.png);
+    background-repeat: no-repeat;
+    height: 400px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.deals-banner-backstage2{
+    border-radius: 20px;
+    margin: 20px 40px;
+    width: 500px;
+    background-color: rgba(245, 245, 220, 0.8);
+    position: absolute;
+    top: 30px;
+    left: 70px;
+}
+
+.deals-banner-backstage2 img{
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+.deals-banner-backstage2 .icon-text{
+    display: flex;
+    padding: 30px 30px;
+}
+
+.deals-banner-backstage2 .backstage{
+    display: flex;
+    align-items: center;
+}
+
+.backtage .icon-text{
+    padding-top: 50px 50px;
+    margin-bottom: 25px;
+    align-items: center;
+}
+
+.deals-banner-backstage2 h2{
     color: #131318;
     font-size: 1.5rem;
     font-weight: 600;
     padding-left: 80px;
+    margin-bottom: 10px;
+}
+
+.backstage p{
+    font-size: 0.8rem;
+    color: #5A5A5D;
+    font-family: Mulish;
 }
 
 .backstage-title-details{
     padding-left: 50px;
 }
 
-backstage-title-details .backstage-title h3{
-    color: #131318;
-    font-family: Mulish;
-    font-size: 1.2px;
-    font-weight: 700;
+.backstage-title-details p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 400px;
 }
 
-backstage-title-details .backstage-title p{
-    color: #131318;
-    font-family: Mulish;
-    font-size: 0.8rem;
-    font-weight: 500;
+.backstage-title-details h4{
+    color: #FF5400;
+}
+
+.backstage-title-details button{
+    background-color: #FF5400;
+    padding: 10px 15px;
+    border-radius: 7px;
+    color: #FFFFFF;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.deals-container .btn-book{
+    background-color: #FF5400;
+    padding: 10px 15px;
+    border-radius: 7px;
+    color: #FFFFFF;
+    margin: 10px 540px;
+}
+
+/* ============= Simple Section Starts =================*/
+
+.simple{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    max-width: 1220px;
+    margin: 0 auto;
+    margin-top: 100px !important;
+}
+
+.simple-content{
+    width: 50%;
+}
+
+
+.simple-img img{
+    object-fit: cover;
+    margin-right: 30px;
+    background-image: url(../images/Group\ 40089.png);
+}
+
+.simple-content h3{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1b1b1c;
+}
+
+.Simple-content p, .simple-content ul{
+    color: #5A5A5D;
+    margin: 24px 0;
+    text-align: justify;
+    font-size: 1rem;
+}
+
+.simple-content ul{
+    padding-left: 30px;
+}
+
+.simple-content ul li{
+    line-height: 26px;
+}
+
+.simple-content button{
+    background-color: #FF5400;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    padding: 15px 20px;
+}
+
+
+/* ============= Newsletter Section Starts =================*/
+
+.newsletter{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1220px;
+    margin: 0 auto;
+    margin-top: 150px !important;
+}
+
+.newsletter-content{
+    width: 30%;
+    background-color: rgba(250, 235, 215, 0.363);
+    padding: 20px 50px;
+}
+
+.newsletter-img img{
+    width: 100%;
+    height: 90%;
+}
+.newsletter-content h3{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1b1b1c;
+}
+
+.newsletter-content p, .simple-content ul{
+    color: #5A5A5D;
+    margin: 24px 0;
+    text-align: justify;
+    font-size: 1rem;
+}
+
+.form-element input{
+    display: block;
+    padding: 10px 70px;
+    background-color: #f6ede8;
+    width: 70%;
+}
+
+.newsletter-content button{
+    background-color: #FF5400;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    padding: 15px 40px;
+    margin: 20px 0px;
+    width: 100%;
+}
+
+
+
+
 
 
 
