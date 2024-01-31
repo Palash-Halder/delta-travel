@@ -81,8 +81,6 @@
 }
 
 
-
-
 .destination{
     margin-top: 10px;
 }
@@ -106,6 +104,14 @@
     "grid-item7";
     gap: 10px;
 }
+
+/* ========== Choose Section Starts ========== */
+
+.choose-container .choose-content h2{
+    justify-content: center;
+    align-items: center;
+}
+
 
 }
 
