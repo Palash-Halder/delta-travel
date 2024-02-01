@@ -631,6 +631,58 @@ select {
 }
 
 
+/* ========== Footer Section Starts ========== */
+
+footer .logo-title-footer{
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .logo-title-footer img{
+    margin-right: 20px;
+}
+
+footer .logo-title-footer p{
+    font-size: 2rem;
+    color: #1b1b1c;
+    font-weight: 700;
+}
+
+footer .logo-title-footer p span{
+    color: #FF5400;
+}
+
+footer .footer-lower-part{
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 300px;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+footer .footer-lower-part img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+footer hr{
+    border: 1px solid #d6d6d7ac;
+}
+
+
+footer .copyright{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+
+
 
 
 
